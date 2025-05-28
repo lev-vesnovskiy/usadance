@@ -1,5 +1,5 @@
 {
- "timestamp":"2025-05-06 20:39:36", 
+ "timestamp":"2025-05-27 23:57:31", 
  "count":1611, 
  "dancers":
  [
@@ -424,7 +424,7 @@
  {"25852":{"w":"35", "m":"0", "c":"0", "smoothClass":"", "t":"35", "p":"0", "rhythmClass":"", "aw":"0", "f":"35", "lastName":"Ghoneimy", "standardClass":"B", "v":"35", "ar":"0", "q":"35", "s":"0", "firstName":"Adel", "number":"25852", "at":"0", "latinClass":"", "ac":"0", "b":"0", "r":"0", "j":"0", "sw":"0", "af":"0", "av":"0"}},
  {"211278":{"w":"0", "m":"0", "c":"2", "smoothClass":"", "t":"0", "p":"1", "rhythmClass":"", "aw":"0", "f":"0", "lastName":"Gibbon", "standardClass":"", "v":"0", "ar":"0", "q":"0", "s":"2", "firstName":"Bruce", "number":"211278", "at":"0", "latinClass":"B", "ac":"0", "b":"0", "r":"2", "j":"2", "sw":"0", "af":"0", "av":"0"}},
  {"226424":{"w":"0", "m":"0", "c":"3", "smoothClass":"", "t":"0", "p":"2", "rhythmClass":"C", "aw":"0", "f":"0", "lastName":"Gibbon", "standardClass":"", "v":"0", "ar":"7", "q":"0", "s":"3", "firstName":"Bruce", "number":"226424", "at":"0", "latinClass":"A", "ac":"7", "b":"0", "r":"3", "j":"3", "sw":"7", "af":"0", "av":"0"}},
- {"222295":{"w":"26", "m":"0", "c":"22", "smoothClass":"D", "t":"24", "p":"0", "rhythmClass":"", "aw":"38", "f":"26", "lastName":"Gibbs", "standardClass":"D", "v":"4", "ar":"19", "q":"26", "s":"22", "firstName":"Chris", "number":"222295", "at":"38", "latinClass":"D", "ac":"19", "b":"0", "r":"22", "j":"22", "sw":"19", "af":"38", "av":"36"}},
+ {"222295":{"w":"26", "m":"0", "c":"22", "smoothClass":"C", "t":"24", "p":"0", "rhythmClass":"E", "aw":"0", "f":"26", "lastName":"Gibbs", "standardClass":"D", "v":"4", "ar":"19", "q":"26", "s":"22", "firstName":"Chris", "number":"222295", "at":"0", "latinClass":"D", "ac":"19", "b":"0", "r":"22", "j":"22", "sw":"19", "af":"0", "av":"0"}},
  {"77470000":{"w":"1", "m":"0", "c":"4", "smoothClass":"", "t":"0", "p":"0", "rhythmClass":"", "aw":"0", "f":"0", "lastName":"Gifford", "standardClass":"N", "v":"0", "ar":"0", "q":"0", "s":"0", "firstName":"Catherine", "number":"77470000", "at":"0", "latinClass":"E", "ac":"0", "b":"0", "r":"4", "j":"0", "sw":"0", "af":"0", "av":"0"}},
  {"76742948":{"w":"0", "m":"0", "c":"6", "smoothClass":"E", "t":"0", "p":"0", "rhythmClass":"", "aw":"2", "f":"0", "lastName":"Gilson", "standardClass":"", "v":"0", "ar":"0", "q":"0", "s":"4", "firstName":"Mia", "number":"76742948", "at":"1", "latinClass":"E", "ac":"0", "b":"0", "r":"6", "j":"0", "sw":"0", "af":"2", "av":"0"}},
  {"224003":{"w":"52", "m":"0", "c":"0", "smoothClass":"D", "t":"44", "p":"0", "rhythmClass":"", "aw":"13", "f":"52", "lastName":"Ginsburg", "standardClass":"D", "v":"10", "ar":"0", "q":"52", "s":"0", "firstName":"Rebecca", "number":"224003", "at":"13", "latinClass":"", "ac":"0", "b":"0", "r":"0", "j":"0", "sw":"0", "af":"13", "av":"0"}},
