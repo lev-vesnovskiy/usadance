@@ -1,5 +1,5 @@
 {
- "timestamp":"2025-06-30 21:56:14", 
+ "timestamp":"2025-07-04 15:23:31", 
  "count":1632, 
  "dancers":
  [
@@ -629,7 +629,7 @@
  {"222857":{"w":"22", "m":"0", "c":"18", "smoothClass":"D", "t":"22", "p":"0", "rhythmClass":"E", "aw":"0", "f":"22", "lastName":"Kan", "standardClass":"E", "v":"0", "ar":"22", "q":"22", "s":"18", "firstName":"Michael", "number":"222857", "at":"0", "latinClass":"E", "ac":"22", "b":"0", "r":"18", "j":"18", "sw":"22", "af":"0", "av":"0"}},
  {"222323":{"w":"13", "m":"4", "c":"24", "smoothClass":"E", "t":"9", "p":"0", "rhythmClass":"E", "aw":"9", "f":"12", "lastName":"Kansky", "standardClass":"E", "v":"0", "ar":"2", "q":"13", "s":"20", "firstName":"Anika", "number":"222323", "at":"11", "latinClass":"E", "ac":"2", "b":"0", "r":"24", "j":"19", "sw":"3", "af":"9", "av":"16"}},
  {"143472":{"w":"31", "m":"0", "c":"0", "smoothClass":"", "t":"31", "p":"0", "rhythmClass":"", "aw":"0", "f":"31", "lastName":"Kantorovich", "standardClass":"B", "v":"27", "ar":"0", "q":"31", "s":"0", "firstName":"Igor", "number":"143472", "at":"0", "latinClass":"", "ac":"0", "b":"0", "r":"0", "j":"0", "sw":"0", "af":"0", "av":"0"}},
- {"75426251":{"w":"0", "m":"0", "c":"0", "smoothClass":"D", "t":"0", "p":"0", "rhythmClass":"E", "aw":"0", "f":"0", "lastName":"Kapel", "standardClass":"D", "v":"0", "ar":"28", "q":"0", "s":"0", "firstName":"Elliot", "number":"75426251", "at":"0", "latinClass":"", "ac":"28", "b":"35", "r":"0", "j":"0", "sw":"35", "af":"0", "av":"0"}},
+ {"75426251":{"w":"0", "m":"0", "c":"0", "smoothClass":"D", "t":"0", "p":"0", "rhythmClass":"D", "aw":"0", "f":"0", "lastName":"Kapel", "standardClass":"D", "v":"0", "ar":"0", "q":"0", "s":"0", "firstName":"Elliot", "number":"75426251", "at":"0", "latinClass":"", "ac":"0", "b":"0", "r":"0", "j":"0", "sw":"0", "af":"0", "av":"0"}},
  {"220827":{"w":"5", "m":"0", "c":"7", "smoothClass":"", "t":"5", "p":"0", "rhythmClass":"", "aw":"0", "f":"5", "lastName":"Kaplanyan", "standardClass":"D", "v":"0", "ar":"0", "q":"5", "s":"7", "firstName":"Diana", "number":"220827", "at":"0", "latinClass":"D", "ac":"0", "b":"0", "r":"7", "j":"7", "sw":"0", "af":"0", "av":"0"}},
  {"221847":{"w":"46", "m":"0", "c":"0", "smoothClass":"C", "t":"46", "p":"0", "rhythmClass":"", "aw":"48", "f":"46", "lastName":"Karam", "standardClass":"C", "v":"34", "ar":"0", "q":"46", "s":"0", "firstName":"Abdallah", "number":"221847", "at":"48", "latinClass":"", "ac":"0", "b":"0", "r":"0", "j":"0", "sw":"0", "af":"48", "av":"28"}},
  {"202199":{"w":"0", "m":"0", "c":"0", "smoothClass":"C", "t":"0", "p":"0", "rhythmClass":"", "aw":"2", "f":"0", "lastName":"Karasek", "standardClass":"", "v":"0", "ar":"0", "q":"0", "s":"0", "firstName":"Donald", "number":"202199", "at":"2", "latinClass":"", "ac":"0", "b":"0", "r":"0", "j":"0", "sw":"0", "af":"2", "av":"2"}},
