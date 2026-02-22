@@ -118,10 +118,28 @@
                 display: none;
             }
         }
+
+        .buttons-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .help-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+        .help-btn svg {
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
-<h3>Proficiency classes and points for USA Dance athletes as of 2026-02-21</h3>
+<h3>Proficiency classes and points for USA Dance athletes as of 2026-02-22</h3>
 
 <div class="container">
                     <span>
@@ -130,10 +148,22 @@
     <span id="row-count" style="margin-left: 10px; margin-top: 12px;">Selected Athletes: 0</span>
 
     <span style="margin-left: auto;"></span>
-    <span class="align-right">
-        For any questions email to <a href="mailto:proficiency@usadance.org">proficiency@usadance.org</a>
-        <button class="close-btn" onclick="showPopup()" style="margin-left: 10px;">Requirements to level up</button>
+    <span class="align-right buttons-row">
+        <button class="help-btn" onclick="openHelpPopup()">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="#007BFF"
+                 xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" fill="none" stroke="#007BFF" stroke-width="2"/>
+                <path d="M9.5 9a2.5 2.5 0 1 1 4.5 1.5c-.5.8-1.5 1.2-2 1.8"
+                      stroke="#007BFF" stroke-width="2" fill="none"/>
+                <circle cx="12" cy="17" r="1" fill="#007BFF"/>
+            </svg>
+        </button>
+
+        <button class="close-btn" onclick="showPopup()">
+            Requirements to level up
+        </button>
     </span>
+
 
 </div>
 
@@ -207,8 +237,35 @@
     <button class="close-btn" type="button" onclick="resetFilters()">Reset</button>
 </div> -->
 
-
 <!-- Help Popup -->
+<div id="help-overlay" class="overlay" onclick="closeHelpPopup()"></div>
+    <div id="help-popup" class="popup">
+        <p>
+            To learn more about the Proficiency System, including its concepts and algorithms,<br>see the
+            <a href="https://lev-vesnovskiy.github.io/usadance/Proficiency_Point_System_current.pdf"
+               target="_blank" rel="noopener noreferrer" onclick="closeHelpPopup()">
+                Proficiency Point System
+            </a>
+            documentation.
+        </p>
+        <p/>
+        <p>
+            For any questions email
+            <a href="mailto:proficiency@usadance.org" onclick="closeHelpPopup()">
+                proficiency@usadance.org
+            </a>
+        </p>
+
+        <div class="container">
+            <span class="align-right"><button class="close-btn" onclick="closeHelpPopup()">Close</button></span>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Requirements Popup -->
 <div id="overlay" class="overlay" onclick="closePopup()"></div>
 <div id="popup" class="popup">
     <table border="1">
@@ -2136,6 +2193,15 @@
 {"w":"0", "m":"0", "c":"27", "smoothClass":"", "t":"0", "p":"0", "rhythmClass":"", "aw":"0", "f":"0", "lastName":"Zvenigorodskiy", "standardClass":"", "v":"0", "ar":"0", "q":"0", "s":"27", "firstName":"Sophia", "number":"225107", "at":"0", "latinClass":"C", "ac":"0", "b":"0", "r":"27", "j":"27", "sw":"0", "af":"0", "av":"0"}];
     const rowCountDisplay = document.getElementById('row-count');
 
+    function openHelpPopup() {
+        document.getElementById("help-popup").style.display = "block";
+        document.getElementById("help-overlay").style.display = "block";
+    }
+
+    function closeHelpPopup() {
+        document.getElementById("help-popup").style.display = "none";
+        document.getElementById("help-overlay").style.display = "none";
+    }
 
     function updateRowCount(count) {
         rowCountDisplay.textContent = `Selected Athletes: ${count}`;
